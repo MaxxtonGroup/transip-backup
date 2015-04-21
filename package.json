@@ -1,0 +1,18 @@
+{
+  "name": "transip-backup",
+  "version": "1.0.0",
+  "description": "A simple nodejs based backup script for TransIP dns entries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Sonke",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MaxxtonGroup/transip-backup.git"
+  },
+  "dependencies": {
+    "transip": "0.0.4"
+  }
+}
