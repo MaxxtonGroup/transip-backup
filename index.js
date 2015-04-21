@@ -47,7 +47,8 @@ function saveDnsEntry(data) {
 }
 
 function clearExistingFile(filePath){
-  fs.unlinkSync(filePath);
+  if(fs.existsSync(filePath))
+    fs.unlinkSync(filePath);
 }
 
 function getFilename(){
