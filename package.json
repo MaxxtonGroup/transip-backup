@@ -13,6 +13,6 @@
     "url": "https://github.com/MaxxtonGroup/transip-backup.git"
   },
   "dependencies": {
-    "transip": "0.0.4"
+    "transip": "0.0.6"
   }
 }
